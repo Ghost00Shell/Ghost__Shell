@@ -40,7 +40,7 @@ h6 {
 .work-box { 
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .work-box:hover img {
@@ -90,7 +90,7 @@ h6 {
 }
  
 
-
+ 
 
 section {
   height: 100vh;
@@ -122,3 +122,4 @@ section {
   display: inline-block;
   text-align: center;
 }
+
