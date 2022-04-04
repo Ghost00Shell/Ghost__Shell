@@ -1,8 +1,9 @@
- 
+{ btn btn-link:a    color:#FF0000;  text-decoration:none }
+
 body {
   background-color: #000000;
   color: #ff0000;
-  a:link    color:#FF0000;  text-decoration:none
+ btn btn-link:link    color:#FF0000;  text-decoration:none
   a:visited color:#FF0000; text-decoration:none
   font-size: 40px; 
 }
