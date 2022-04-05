@@ -97,6 +97,8 @@ h6 {
 }
 
 li.social-icon {
+position: center;+
+text-align: center;
 btn btn-link:a    color:#FF0000; 
 a:link    color:#FF0000;
 a:visited color:#FF0000; 
