@@ -2,9 +2,10 @@
 body {
   background-color: #000000;
   color: #ff0000;
- btn btn-link:link    color:#FF0000;  text-decoration:none
-  a:visited color:#FF0000; text-decoration:none
+ btn btn-link:link    color:#FF0000;
+  a:visited color:#FF0000;
   font-size: 40px; 
+  li.social-icon:link  color:#FF0000;
 }
 
 
@@ -95,7 +96,7 @@ h6 {
   font-size: 1.2rem;
 }
 
-social {
+li.social-icon {
 btn btn-link:a    color:#FF0000; 
 a:link    color:#FF0000;
 a:visited color:#FF0000; 
