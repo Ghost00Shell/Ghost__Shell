@@ -4,9 +4,7 @@ body {
   background-color: #000000;
   color: #ff0000;
   a:visited color:#FF0000;
-}
-btn btn-link {
-font-size: 22px;
+  font-size: 22px;
 }
 
 h1,
