@@ -137,10 +137,11 @@ section {
   overflow: hidden;
   border-right: .15em solid #00ff00;
   white-space: nowrap;
-  animation: 
+  animation:
+    infinite;
     typing 5s forwards;
-  font-size: 1.6rem;
-  width: 0;
+    font-size: 1.6rem;
+    width: 0;
 }
 @keyframes typing {
   from { width: 0 }
