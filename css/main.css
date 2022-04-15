@@ -138,8 +138,7 @@ section {
   border-right: .15em solid #00ff00;
   white-space: nowrap;
   animation:
-    infinite;
-    typing 5s forwards;
+    typing 5s forwards; infinite;
     font-size: 1.6rem;
     width: 0;
 }
