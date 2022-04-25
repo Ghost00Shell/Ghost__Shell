@@ -1,7 +1,7 @@
 audio { display:none;}
 body {
   text-align: center;
-  background-color: #000000;
+  background-color: black;
   color: #ff0000;
   a:visited color:#FF0000;
   font-size: 15px;
@@ -17,7 +17,9 @@ h6 {
   color: #ff0000;
 }
  
- 
+ .half-black {
+  background: rgba(0, 0, 0, 0.5);
+}
 
 .box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
   box-shadow: rgba(0,0,0,0) 0px 1px 0px, rgba(0,0,0,0) 0px 0px 8px;
