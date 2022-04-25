@@ -20,7 +20,7 @@ h6 {
  
 
 .box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px, rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  box-shadow: rgba(black) 0px 1px 0px, rgba(black) 0px 0px 8px;
 }
 
  
