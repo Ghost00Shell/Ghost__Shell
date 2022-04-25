@@ -114,10 +114,12 @@ section {
   margin: 15px 5px 5px 5px;
   font-size: calc( 1vw + 20px );
   color: #ff0000;
+  background: rgba(0, 0, 0, 0.5);
 }
 .profile-card h2 {
   margin: 15px 5px 5px 5px;
   font-size: calc( 0.3vw + 14px );
+  background: rgba(0, 0, 0, 0.5);
 } 
 .profile-card  {
   width: 80%;
@@ -128,7 +130,7 @@ section {
   display: inline-block;
   text-align: center;
   color: #00ff00;
-
+  background: rgba(0, 0, 0, 0.5);
 }
 
 
