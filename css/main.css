@@ -5,7 +5,7 @@ body {
   color: #ff0000;
   a:visited color:#FF0000;
   font-size: 15px;
-  background: rgba(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0);
 }
 
 h1,
@@ -18,11 +18,11 @@ h6 {
 }
  
  .half-black {
-  background: rgba(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0);
 }
 
 .box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
-  box-shadow: rgba(0,0,0,0) 0px 1px 0px, rgba(0,0,0,0) 0px 0px 8px;
+  box-shadow: rgb(0,0,0,0) 0px 1px 0px, rgb(0,0,0,0) 0px 0px 8px;
 }
 
  
@@ -114,12 +114,12 @@ section {
   margin: 15px 5px 5px 5px;
   font-size: calc( 1vw + 20px );
   color: #ff0000;
-  background: rgba(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0);
 }
 .profile-card h2 {
   margin: 15px 5px 5px 5px;
   font-size: calc( 0.3vw + 14px );
-  background: rgba(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0);
 } 
 .profile-card  {
   width: 80%;
@@ -130,7 +130,7 @@ section {
   display: inline-block;
   text-align: center;
   color: #00ff00;
-  background: rgba(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0);
 }
 
 
