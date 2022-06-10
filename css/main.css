@@ -120,7 +120,7 @@ section {
   margin: 15px 5px 5px 5px;
   font-size: calc( 1vw + 20px );
   color: #ff0000;
-    background-color: #000000;
+  background-color: #000000;
 
 }
 .profile-card h2 {
@@ -151,12 +151,13 @@ section {
 }
 .typed-out{
   overflow: hidden;
+  font-size: 22px;
   border-right: .15em solid #00ff00;
   white-space: nowrap;
   animation:
-    typing 5s forwards; 
-    font-size: 1rem;
-    width: 0;
+  typing 5s forwards; 
+  font-size: 1rem;
+  width: 0;
 }
 @keyframes typing {
   from { width: 0 }
