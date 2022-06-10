@@ -2,6 +2,7 @@ audio { display:none;}
 body {
   text-align: center;
   font-family: Iceland;
+  font-weight: bold;
   background-color: #000000;
   color: #ff0000;
   a:visited color:#FF0000;
