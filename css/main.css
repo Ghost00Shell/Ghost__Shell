@@ -151,7 +151,6 @@ section {
 }
 .typed-out{
   overflow: hidden;
-  font-size: 22px;
   border-right: .15em solid #00ff00;
   white-space: nowrap;
   animation:
