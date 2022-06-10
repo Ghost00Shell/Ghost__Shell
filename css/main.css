@@ -1,6 +1,7 @@
 audio { display:none;}
 body {
   text-align: center;
+  font-family: Iceland;
   background-color: #000000;
   color: #ff0000;
   a:visited color:#FF0000;
@@ -128,6 +129,7 @@ section {
 
 } 
 .profile-card  {
+  font-family: Iceland;
   width: 80%;
   height: 0px;
   position: absolute;
