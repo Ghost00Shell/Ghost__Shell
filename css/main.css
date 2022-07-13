@@ -177,7 +177,7 @@ body {
   margin: 0 auto;
 }
 
-#slide-wrapper {
+.slide-wrapper {
   width: 2912px;
   -webkit-animation: slide 12s ease infinite;
     text-align: center;
@@ -190,7 +190,7 @@ body {
   width: 728px;
 }
 
-#slide:nth-child(1) {
+.slide:nth-child(1) {
 }
 .slide:nth-child(2) {
 }
@@ -211,7 +211,21 @@ body {
 .slide:nth-child(10) {
 }
 
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 10em;
+}
 
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
 
 
 
