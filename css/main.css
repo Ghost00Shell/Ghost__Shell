@@ -169,7 +169,7 @@ section {
 body {
   padding: 5%;
 }
-#slideshow {
+.slideshow {
   text-align: center;
   overflow: hidden;
   height: 510px;
