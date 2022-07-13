@@ -170,7 +170,7 @@ section {
     overflow:hidden;
 }
 
-.container {
+.ok {
     width:1200px; /* 300 x 4 */
     position:relative;
     -webkit-animation:slide 8s ease-in-out infinite;
@@ -180,24 +180,24 @@ section {
     animation:slide 8s ease-in-out infinite;
 }
 
-.container section {
+.ok section {
     width:300px;
     height:200px;
     float:left;
 }
 
-.container section:nth-child(1) 
-.container section:nth-child(2) 
-.container section:nth-child(3) 
-.container section:nth-child(4) 
-.container section:nth-child(5) 
-.container section:nth-child(6) 
-.container section:nth-child(7) 
-.container section:nth-child(8) 
-.container section:nth-child(9) 
-.container section:nth-child(10) 
+.ok section:nth-child(1) 
+.ok section:nth-child(2) 
+.ok section:nth-child(3) 
+.ok section:nth-child(4) 
+.ok section:nth-child(5) 
+.ok section:nth-child(6) 
+.ok section:nth-child(7) 
+.ok section:nth-child(8) 
+.ok section:nth-child(9) 
+.ok section:nth-child(10) 
 
-.container:hover {
+.ok:hover {
    animation-play-state:paused;
    -webkit-animation-play-state:paused;
 }
