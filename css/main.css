@@ -164,34 +164,6 @@ section {
   from { width: 0 }
   to { width: 100% }
 }
-#slideshow {
-    width:300px;
-    margin:0 auto;
-    overflow:hidden;
-}
-
-.ok {
-    width:1200px; /* 300 x 4 */
-    position:relative;
-    -webkit-animation:slide 8s ease-in-out infinite;
-    -moz-animation:slide 8s ease-in-out infinite;
-    -ms-animation:slide 8s ease-in-out infinite;
-    -o-animation:slide 8s ease-in-out infinite;
-    animation:slide 8s ease-in-out infinite;
-}
-
-.ok section {
-    width:300px;
-    height:200px;
-    float:left;
-}
- 
-
-.ok:hover {
-   animation-play-state:paused;
-   -webkit-animation-play-state:paused;
-}
-
 
 
 
