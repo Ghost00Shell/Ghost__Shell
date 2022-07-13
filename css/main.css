@@ -185,57 +185,11 @@ section {
     height:200px;
     float:left;
 }
-
-.ok section:nth-child(1) 
-.ok section:nth-child(2) 
-.ok section:nth-child(3) 
-.ok section:nth-child(4) 
-.ok section:nth-child(5) 
-.ok section:nth-child(6) 
-.ok section:nth-child(7) 
-.ok section:nth-child(8) 
-.ok section:nth-child(9) 
-.ok section:nth-child(10) 
+ 
 
 .ok:hover {
    animation-play-state:paused;
    -webkit-animation-play-state:paused;
-}
-
-@-webkit-keyframes slide {
-    0% {left:0;}
-    25% {left:-300px;}
-    50% {left:-600px;}
-    75% {left:-900px;}
-    100% {left:0;}
-}
-@-moz-keyframes slide {
-    0% {left:0;}
-    25% {left:-300px;}
-    50% {left:-600px;}
-    75% {left:-900px;}
-    100% {left:0;}
-}
-@-ms-keyframes slide {
-    0% {left:0;}
-    25% {left:-300px;}
-    50% {left:-600px;}
-    75% {left:-900px;}
-    100% {left:0;}
-}
-@-o-keyframes slide {
-    0% {left:0;}
-    25% {left:-300px;}
-    50% {left:-600px;}
-    75% {left:-900px;}
-    100% {left:0;}
-}
-@keyframes slide {
-    0% {left:0;}
-    25% {left:-300px;}
-    50% {left:-600px;}
-    75% {left:-900px;}
-    100% {left:0;}
 }
 
 
