@@ -166,7 +166,7 @@ section {
 }
 
 
-.p.ok {
+#p.ok {
     border-radius: 25px;
     border: 2px solid #00FF00;
     background: #000;
