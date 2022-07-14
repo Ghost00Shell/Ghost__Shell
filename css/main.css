@@ -166,5 +166,13 @@ section {
 }
 
 
+#ip2 {
+    border-radius: 25px;
+    border: 2px solid #00FF00;
+    background: #000;
+    padding: 20px; 
+    width: 150px;
+    height: 15px;    
+}
 
 
