@@ -70,6 +70,7 @@ input {
 }
 
 input[type="text"] {
+  color: #00ff00;
   background-color: rgb(47, 51, 50);
   width: 222.5px;
 }
