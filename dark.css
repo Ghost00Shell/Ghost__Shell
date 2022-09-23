@@ -3,10 +3,10 @@ body {
   font-family: Iceland;
   font-weight: bold;
   background-color: #000000;
-  color: #00ff00]['\;
+  color: #00ff00;
   a:visited color:#FF0000;
   font-size: 22px;
-}
+
 
 * {
   box-sizing: border-box;
