@@ -51,7 +51,7 @@ h1 {
 input {
   padding: 25px;
   color:#00ff00
-  font-size: 1em;
+  font-size: 5em;
   cursor: pointer;
   width: 70px;
   background-color: rgb(47, 51, 50);
@@ -98,4 +98,3 @@ a {
   all: unset;
   cursor: pointer;
 }
-.
