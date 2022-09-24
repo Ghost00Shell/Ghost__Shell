@@ -24,7 +24,7 @@
 h1 {
   margin-bottom: 1.5%;
   color: #00ff00;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .container {
@@ -54,7 +54,7 @@ input {
   font-size: 20px;
   cursor: pointer;
   width: 70px;
-  background-color: rgb(47, 51, 50);
+  background-color: #00ff00;
   border: none;
   outline: none;
   border-radius: 100px;
@@ -72,7 +72,7 @@ input {
 input[type="text"] {
   font-size: 20px;
   color: #00ff00;
-  background-color: rgb(47, 51, 50);
+  background-color: #00ff00;
   width: 222.5px;
 }
 
