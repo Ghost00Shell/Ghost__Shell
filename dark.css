@@ -78,8 +78,9 @@ input[type="text"] {
 
 input[type="button"]:hover {
   font-size: 20px;
-  background-color: #00ff00;
   color: #00ff00;
+  background-color: rgb(47, 51, 50);
+  
 }
 
 #clear-button {
