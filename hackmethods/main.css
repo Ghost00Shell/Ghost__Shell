@@ -17,6 +17,10 @@ h6 {
   color: #00ff00;
 }
 
-
+.myDiv {
+  border: 5px outset black;
+  background-color: white;
+  text-align: center;
+}
 
 
