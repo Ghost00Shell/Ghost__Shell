@@ -8,10 +8,6 @@ body {
   img {
   width: auto,
   height: auto
-  #center {  
-object-fit: none;  
-object-position: center 
-}
 }
 
 
@@ -19,4 +15,8 @@ h1,
 h2 {
   color: #00ff00;
 }
-
+  
+#center {  
+object-fit: none;  
+object-position: center 
+}
