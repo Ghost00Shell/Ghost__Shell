@@ -18,9 +18,12 @@ h6 {
 }
 
 .myDiv {
-  border: 5px outset black;
-  background-color: white;
   text-align: center;
 }
 
 
+.myDiv2 {
+  border: 5px outset black;
+  background-color: white;
+  text-align: center;
+}
