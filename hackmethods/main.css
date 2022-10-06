@@ -17,13 +17,12 @@ h6 {
   color: #00ff00;
 }
 
-.myDiv {
-  text-align: center;
+.ok {
+  width: auto,
+  height: auto
 }
-
-
-.myDiv2 {
-  border: 5px outset black;
-  background-color: white;
-  text-align: center;
+}
+img {
+  width: auto,
+  height: auto
 }
