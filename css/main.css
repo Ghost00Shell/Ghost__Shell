@@ -115,8 +115,8 @@ section {
 }
 .container {
   max-width: 1200px;
-    background-color: #000000;
-
+  background-color: #000000;
+  color: #00ff00;
 }
 #particles-js {
   position: absolute;
