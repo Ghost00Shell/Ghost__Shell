@@ -38,6 +38,7 @@ h6 {
   padding: 5px 5px;
   border-radius: 5px;
   background-color: #000000;
+  color: #00ff00;
   font-size: 12px;
   font-weight: 510;
   margin: 3px;
@@ -85,6 +86,9 @@ h6 {
 
 .work-content .w-more .w-ctegory {
   color: #0078ff;
+}
+.navigation {
+  color: #00ff00;
 }
 
 .work-content .w-like {
