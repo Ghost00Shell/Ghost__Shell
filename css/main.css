@@ -8,8 +8,12 @@ body {
   a:visited color:#FF0000;
   font-size: 22px;
 }
-
-
+.nav-item {
+color: #00ff00;
+}
+nav-item { 
+color: #00ff00;
+}
 
 h1,
 h2,
