@@ -49,7 +49,7 @@ particlesJS("particles-js", {
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "nvk0x | Portfolio";
+        document.title = "Ghost_Shell (Khaled_AlKhawaga)";
         $("#favicon").attr("href","/images/icon.jpg");
     }
     else {
