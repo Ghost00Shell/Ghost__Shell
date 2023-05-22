@@ -1,0 +1,38 @@
+<html>
+<body style="background-color:black;">
+<center>
+<h1 style="color:#00ff00">Ghost_Shell</h1>
+<style>
+.button {
+  background-color: #f44336;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 50px;
+  color: #00ff00;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 5px 2px;
+  cursor: pointer;
+}</style>
+
+<button class="button" onclick="typeWriter()">Click Me</button></center>
+
+<p id="hack" style="color:#00ff00"></p>
+
+<script>
+var i = 0;
+var txt = '💀I'm Ghost_Shell, A Cyber Security Researcher & Bug Bounty Hunter in love with Web Application Security, Mobile Application Security, and Api Security Testing.💀';  
+var speed = 50;
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("hack").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+</body>
+</html>
