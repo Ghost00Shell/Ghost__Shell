@@ -1,0 +1,52 @@
+<html>
+<head><link rel=¨stylesheet¨ type=¨text/css¨ href=¨list.css¨></head> 
+<h1>AUTHENTICATION SYSTEMS (Signup/Signin/2 Factor/Password reset)</h1>
+<div class="inbox">
+	<div class="item">
+		<input type="checkbox">
+ <p>Use HTTPS everywhere.</p>
+ <p>Store password hashes using Bcrypt (no salt necessary - Bcrypt does it for you).</p>
+ <p>Destroy the session identifier after logout.</p>
+ <p>Destroy all active sessions on reset password (or offer to).</p>
+ <p>Must have the state parameter in OAuth2.</p>
+ <p>No open redirects after successful login or in any other intermediate redirects.</p>
+ <p>When parsing Signup/Login input, sanitize for javascript://, data://, CRLF characters.</p>
+ <p>Set secure, httpOnly cookies.</p>
+ <p>In Mobile OTP based mobile verification, do not send the OTP back in the response when generate OTP or Resend OTP API is called.</p>
+ <p>Limit attempts to Login, Verify OTP, Resend OTP and generate OTP APIs for a particular user. Have an exponential backoff set or/and something like a captcha based challenge.</p>
+ <p>Check for randomness of reset password token in the emailed link or SMS.</p>
+ <p>Set an expiration on the reset password token for a reasonable period.</p>
+ <p>Expire the reset token after it has been successfully used.</p></div>
+	<div class="item">
+		<input type="checkbox">
+		<p>Check one item</p>
+	</div>
+	<div class="item">
+		<input type="checkbox">
+		<p>Hold down your Shift key</p>
+	</div>
+	<div class="item">
+		<input type="checkbox">
+		<p>Check a lower item</p>
+	</div>
+	<div class="item">
+		<input type="checkbox">
+		<p>Everything inbetween should also be set to checked</p>
+	</div>
+	<div class="item">
+		<input type="checkbox">
+		<p>Try do it with out any libraries</p>
+	</div>
+	<div class="item">
+		<input type="checkbox">
+		<p>Just regular JavaScript</p>
+	</div>
+	<div class="item">
+		<input type="checkbox">
+		<p>Good Luck!</p>
+	</div>
+	<div class="item">
+		<input type="checkbox">
+		<p>Don't forget to tweet your result!</p>
+	</div>
+</div></html>
