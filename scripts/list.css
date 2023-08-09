@@ -4,14 +4,6 @@ html {
 	color: #00ff00;
 }
 
-.inbox {
-    background: #4B0082;
-    border-radius: 5px;
-    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
-    margin: 50px auto;
-    max-width: 400px;
-}
-
 .item {
     align-items: right;
     border-bottom: 1px solid #F1F1F1;
@@ -23,8 +15,9 @@ html {
 }
 
 input:checked + p {
-    background: #000000;
-    text-decoration: line-through;
+background: #000000;    
+background: #4B0082;
+
 }
 
 input[type="checkbox"] {
