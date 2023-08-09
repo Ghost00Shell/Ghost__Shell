@@ -7,7 +7,7 @@ html {
 .item {
     align-items: right;
     border-bottom: 1px solid #F1F1F1;
-    display: flex;
+    display: none;
 }
 
 .item:last-child {
@@ -26,7 +26,6 @@ input[type="checkbox"] {
 }
 
 p {
-    border-left: 1px solid #D1E2FF;
     flex: 1;
     font-family: 'helvetica neue';
     font-size: 20px;
